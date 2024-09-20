@@ -5,7 +5,7 @@ import google.generativeai as genai
 import streamlit as st
 from io import BytesIO
 
-genai.configure(api_key="AIzaSyAWOVVIs-6LXraOG7RIvimx_rZqzKWx4CE")
+genai.configure(api_key="...")
 
 generation_config = {
   "temperature": 1,
